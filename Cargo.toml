@@ -1,0 +1,16 @@
+[package]
+name = "ultraminifyhtml"
+version = "0.1.0"
+authors = ["Krzysztof Klinikowski <kkszysiu@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "ultraminifyhtml"
+crate-type = ["cdylib"]
+
+[dependencies]
+minify-html = { version = "0.4.6", features = ["js-esbuild"] }
+
+[dependencies.cpython]
+version = "0.5"
+default-features = false
