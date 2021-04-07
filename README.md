@@ -1,10 +1,10 @@
-<p align="center">UltraFeedParser</p>
-<p align="center">Minimal but fast feed parser for Python, partially written in Rust.</p>
+<p align="center">UltraMinifyHTML</p>
+<p align="center">An HTML minifier meticulously optimised for both speed and effectiveness written in Rust then ported to Python.</p>
 
 ### Intro
 Tested with Python 2.7, 3.6, 3.7 and 3.8
 
-It uses `feed-rs` Rust library: https://crates.io/crates/feed-rs to parse feeds.
+It uses `minify-html` Rust library: https://crates.io/crates/minify-html to do minimisation.
 
 ### Work in Progress
 This library is still pretty much work in progress. Not intended for production usage yet.
