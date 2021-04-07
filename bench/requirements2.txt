@@ -1,3 +1,1 @@
-chardet
-feedparser
-speedparser
+htmlmin
